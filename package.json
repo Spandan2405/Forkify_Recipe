@@ -5,13 +5,13 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Spandan Gupta",
   "license": "ISC",
   "dependencies": {
     "core-js": "^3.39.0",
-    "fractional": "^1.0.0",
+    "fracty": "^1.0.12",
     "parcel": "^2.13.3",
     "regenerator-runtime": "^0.14.1",
     "sass": "^1.83.0"
