@@ -21,7 +21,7 @@ const createRecipeObject = function (data) {
     title: recipe.title,
     publisher: recipe.publisher,
     sourceUrl: recipe.source_url,
-    imagse: recipe.image_url,
+    image: recipe.image_url,
     servings: recipe.servings,
     cookingTime: recipe.cooking_time,
     ingredients: recipe.ingredients,

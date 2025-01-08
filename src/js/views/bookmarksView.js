@@ -7,7 +7,7 @@ class BookmarksView extends View {
   _message = '';
 
   _generateMarkup() {
-    // console.log(this._data);  the array -- same as model.state.search.results
+    //console.log(this._data); //the array -- same as model.state.search.results
     return this._data
       .map(bookmark => previewView.render(bookmark, false))
       .join('');
